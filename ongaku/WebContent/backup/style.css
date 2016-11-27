@@ -1,0 +1,24 @@
+.whiteKey.ui-input-btn.ui-btn.ui-btn-inline{
+	padding: 0px;
+	margin: 0px;
+	width: 30px;
+	height: 110px;
+	border-radius: 0px;
+	background-color: #FEFCFF;
+}
+
+.blackKey.ui-input-btn.ui-btn.ui-btn-inline{
+	padding: 0px;
+	margin: 0px;
+	width: 22px;
+	height: 70px;
+	border-radius: 0px;
+	background-color: black;
+	position: relative;
+	left: -15px;
+	z-index: 1;
+}
+
+.pair{
+	display: inline;
+}

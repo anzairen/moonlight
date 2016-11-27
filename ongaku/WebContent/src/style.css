@@ -1,0 +1,66 @@
+body .ui-page{
+	background-image: url("./img/green-back.jpg");
+	background-size: cover;
+}
+
+.pane{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.img-before, .img-after{
+	height: 400px;
+	width: 400px;
+	display: inline-block;
+	margin: 30px 10px;
+	background-size: cover;
+}
+
+.img-question{
+	background-repeat: no-repeat;
+	background-size: 800px 450px;
+	height: 450px;
+	width: 800px;
+	background-color: #FEFCFF;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.pane .on-type{
+	font-size: 35px;
+	border-bottom: 2px solid gray;
+	margin-bottom: 10px;
+	height: 50px;
+}
+
+.pane .question-container .ui-radio .ui-btn{
+	height: 180px;
+	width: 190px;
+	border-right-width: 1px;
+	margin: 10px;
+	border-radius: 20%;
+	text-align: center;
+	font-size: 40px;
+	padding: 0;
+}
+
+.pane .navigation .ui-btn {
+	height: 150px;
+	width: 350px;
+	margin: 90px 0 20px;
+	font-size: 40px;
+}
+
+.pane .navigation .ui-btn:active {
+	background-color: #38c;
+	border: none;
+}
+.navigation .ui-btn+.ui-btn{
+	margin-left: 150px;
+}
+
+.navigation .btn-left{
+	border-radius: 0 50% 50% 0;
+}
+.navigation .btn-right{
+	border-radius: 50% 0 0 50%;
+}

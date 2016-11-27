@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+	<head>
+		<meta charset="UTF-8">
+		<title>ヤマハ音楽教室</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	</head>
+	<body>
+		<div class="pane">
+			<div class="pokemon">
+				<div class="img-before" id="img-before"></div>
+				<div class="img-after" id="img-after"></div>
+			</div>
+			<div class="img-question" id="img-question"></div>
+			<form class="question-container">
+				<fieldset data-role="controlgroup" data-type="horizontal" id="options-set">
+					<input type="radio" name="options" id="options-0">
+					<label for="options-0"><div class="on-type" id="option-0-type"></div><div class="option-value" id="option-0-value"></div></label>
+					<input type="radio" name="options" id="options-1">
+					<label for="options-1"><div class="on-type" id="option-1-type"></div><div class="option-value" id="option-1-value"></div></label>
+					<input type="radio" name="options" id="options-2">
+					<label for="options-2"><div class="on-type" id="option-2-type"></div><div class="option-value" id="option-2-value"></div></label>
+					<input type="radio" name="options" id="options-3">
+					<label for="options-3"><div class="on-type" id="option-3-type"></div><div class="option-value" id="option-3-value"></div></label>
+				</fieldset>
+			</form>
+			<dic class="navigation">
+				<button class="ui-btn ui-btn-inline btn-left" id="btn-left">まえへ</button>
+				<button class="ui-btn ui-btn-inline btn-right" id="btn-right" disabled>つぎへ</button>
+			</div>
+		</div>
+		<script src="sample.js"></script>
+		<script src="options.js"></script>
+	</body>
+</html>
